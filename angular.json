@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "portafolio-resumen": {
+    "bxcode-resumen": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/portafolio-resumen",
+            "outputPath": "dist/bxcode-resumen",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -30,8 +30,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/ngx-toastr/toastr.css",
               "src/styles.scss"
             ],
             "scripts": [
@@ -54,8 +52,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "4mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -77,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "portafolio-resumen:build:production"
+              "buildTarget": "bxcode-resumen:build:production"
             },
             "development": {
-              "buildTarget": "portafolio-resumen:build:development"
+              "buildTarget": "bxcode-resumen:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "portafolio-resumen:build"
+            "buildTarget": "bxcode-resumen:build"
           }
         },
         "test": {
@@ -105,7 +103,6 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": [

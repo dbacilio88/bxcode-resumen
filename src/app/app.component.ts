@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterOutlet } from '@angular/router';
-import { ToastrService } from 'ngx-toastr';
 import { take } from 'rxjs';
 import { ToastsMessageConstant } from './components/constants/constants.index';
 import { PersonService } from './services/person.list.service';
@@ -15,9 +14,8 @@ import { SharedModule } from './shared/shared.module';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'portafolio-bxcode';
+  title = 'bxcode-resumen';
   constructor(
-    private toastrService: ToastrService,
     private tsc: ToastsMessageConstant,
     private service: PersonService,
     public routes: Router

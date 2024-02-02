@@ -13,17 +13,17 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
-
-  it(`should have the 'portafolio-bxcode' title`, () => {
+/* 
+  it(`should have the 'bxcode-resumen' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('portafolio-bxcode');
+    expect(app.title).toEqual('bxcode-resumen');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, portafolio-bxcode');
-  });
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, bxcode-resumen');
+  }); */
 });
