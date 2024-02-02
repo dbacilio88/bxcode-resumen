@@ -1,0 +1,25 @@
+{
+    "bx-menu": {
+        "menu-item1": "Sobre mí",
+        "menu-item2": "Habilidades",
+        "menu-item3": "Formación",
+        "menu-item4": "Proyectos",
+        "menu-item5": "Experiencias",
+        "menu-item6": "Contacto"
+    },
+    "bx-home": {
+        "home-data-1": "Hola! Soy",
+        "home_data-2": "Desarrollador Backend-End"
+    },
+    "bx-habilidades": {
+        "title": "Habilidades"
+    },
+    "bx-formacion": {
+        "title": "Formación",
+        "formacion1": "Estadística",
+        "tiempo-formacion1": "2019 - En curso",
+        "formacion2": "Desarrolladora Full-Stack",
+        "tiempo-formacion2": "2022 - En curso",
+        "formacion3": "Contabilización de Operaciones Comerciales y Financieras"
+    }
+}
